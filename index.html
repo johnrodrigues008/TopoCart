@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste TopoCart </title>
+
+    <!-- Link da pagina CSS Externa -->
+    <link rel="stylesheet" href="./components/css/style.css">
+
+</head>
+<body>
+    <div class="box_form" id="formulario">
+
+        <h1>Faça seu Cadastro</h1>
+
+        <form>
+            <!-- Campo nome -->
+            <div>
+                <label for="nome"></label>
+                <input class="input" type="text" id="nome" placeholder="Digite seu nome"/>
+            </div>
+            <!-- Campo Sobrenome -->
+            <div>
+                <label for="sobrenome"></label>
+                <input class="input" type="text" id="sobrenome" placeholder="Digite seu sobrenome"/>
+            </div>
+            <!-- Campo E-mail -->
+            <div>
+                <label for="email"></label>
+                <input class="input" type="email" id="email" placeholder=" Digite seu E-mail" />
+            </div>
+            <!-- Campo Senha-->
+            <div>
+                <label for="senha"></label>
+                <input class="input" type="password"  id="senha" placeholder=" Digite sua senha"/>
+            </div>
+            <!-- Campo Telefone -->
+
+            <div>
+                <label for="telefone"></label>
+                <input class="input" type="tel" id="telefone" placeholder="Telefone"/>
+            </div>
+            <!-- Campo Cep -->
+
+            <div>
+                <label for="cep"></label>
+                <input class="input" type="tel" id="cep" placeholder="Cep"/>
+            </div>
+            <!-- Campo Sexo -->
+
+            <div class="sexo">
+                <p>Sexo:</p>
+                <div class="form-check-man">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                    <label class="form-check-label" for="flexRadioDefault1" id="masculino" >
+                        Masculino
+                    </label>
+                    
+                </div>
+                <div class="form-check-woman">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2" id="feminino">
+                       Feminino
+                    </label>
+                </div>
+            </div>
+            <!-- Campo Newsletter -->
+            <div class="newslestter">
+                <label for="newsletter">Newsletter: </label>
+                <input type="checkbox" value="newsletter" id="newsletter"/>
+                <p>Desejo receber noticias</p>
+            </div>
+            <div class="button">
+                <button class="enviar" id="enviar" type="button">Enviar</button>
+            </div>
+        </form>
+      </div>
+    <!-- Link da Pagina JS Externa -->
+    <script src="./components/js/script.js"></script>
+</body>
+</html>

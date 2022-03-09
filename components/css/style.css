@@ -1,0 +1,87 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* cores */
+:root{
+    --primary-color-white: rgb(255, 255, 255);
+    --second-color-blueviolet: rgb(137, 43, 226);
+}
+/* Estilo Geral */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('/components/img/Roxo\ e\ Verde\ Animado\ Padrão\ Abstrato\ Projeto\ em\ Grupo\ Apresentação\ Educacional.jpg');
+    background-size: cover;
+    text-align: center;            
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.box_form h1{
+    padding: 20px;
+    color: var(--primary-color-white);
+}
+form > div {
+    padding: 10px;
+}
+form > div > label{
+    display:  inline-block ;
+    margin: 0;
+}
+form > div > input{
+    text-align: center;
+}
+.sexo{
+    margin: 0;
+    padding: 0;
+}
+.sexo p{
+    margin: 10px;
+    display: inline-block; 
+}
+.input{
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid var( --second-color-blueviolet);
+}
+.form-check-man{
+    display: inline-block;
+  
+}
+.form-check-woman{
+    display: inline-block;
+
+}
+.newslestter > input{
+    display: inline-block;
+    margin: 0;
+}
+.newslestter > p{
+    display: inline-block;
+    margin: 0;
+}
+.enviar{
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background: var( --second-color-blueviolet);
+    color: var(--primary-color-white);
+    border: none;
+}
+.enviar:hover{
+    background: var(--primary-color-white);
+    color: var( --second-color-blueviolet);
+    border: 1px solid rgb(127, 31, 216);
+}
+@media only screen and (max-width: 992px) {
+    .input{
+        width: 90%;
+    }
+
+}
